@@ -101,7 +101,7 @@ figure {
 
 #youtube:hover {
   color: crimson;
-
+}
 
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500;600&display=swap");
 
@@ -189,6 +189,7 @@ main .avatar {
 
 .card span {
     color: hsl(40,89%,47%);
+}
 
 .headerImgBg {
   background-image: url(https://www.plex.tv/wp-content/uploads/2020/07/hero-live-tv-homepage-2048x1152.png);
