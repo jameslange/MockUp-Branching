@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+footer {
+  height: 50vh;
+  width: 100%;
+  position: relative;
+  bottom: 0;
+  background-color: #282a2d;
+}
+
+.full {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 5rem;
+  border-bottom: 1px solid #6d7177;
+  padding-bottom: 6rem;
+}
+
+.full figure img {
+  height: 2rem;
+  width: 4rem;
+  width: 50%;
+}
+
+figure {
+  width: 50%;
+}
+
+.right {
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+  padding-right: 12rem;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+}
+.list h6 {
+  color: white;
+  font-size: 1.2rem;
+  padding-bottom: 1.5rem;
+}
+
+.list a {
+  color: white;
+  text-decoration: none;
+}
+.list a:hover {
+  color: gold;
+}
+.list span a {
+  color: #6d7177;
+  text-decoration: none;
+}
+
+.footer-container {
+  width: 100%;
+  height: 7rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #6d7177;
+}
+
+.footer-container2 {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+.icons {
+  color: #6d7177;
+  font-size: 1.2rem;
+  display: flex;
+  width: 15%;
+  justify-content: space-evenly;
+}
+
+#twit:hover {
+  color: lightblue;
+}
+
+#fb:hover {
+  color: darkblue;
+}
+
+#insta:hover {
+  color: pink;
+}
+
+#link:hover {
+  color: blue;
+}
+
+#youtube:hover {
+  color: crimson;
+}
